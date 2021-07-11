@@ -1,0 +1,358 @@
+body{
+    background-color:rgb(76, 114, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin:auto;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.header {
+    background-color:rgb(147, 190, 122);
+    height: 15vh;
+    width: 100%;
+}
+
+.img-logo{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    padding: 81px;
+    margin-left: 5px;
+    margin-top: 5.5px;
+    float: left;
+}
+
+.navbar{
+    width: 50%;
+    padding: 20px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.navbar-ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar-ul a{
+    color:#E6F2EA;
+    padding-right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    float: right;
+}
+
+.navbar-ul a:hover{
+    color: rgb(77, 143, 11);
+}
+
+#showcase{
+    background-image: url('../images/show.jpg');
+    height: 85vh;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid greenyellow;
+}
+
+.h1{
+    color: rgb(99, 146, 72);
+    padding-top: 120px;
+    font-size: 150px;
+    font-family: fantasy, sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+}
+
+.main{
+    float: left;
+    width: 90%;
+    height: 100%;
+    padding:10px 30px;
+    padding-bottom:0;
+    box-sizing: border-box;
+    border-right: 3px solid greenyellow;
+    background-color: #E6F2EA;
+}
+/* SIDEBAR//////////////////// */
+.sidebar{
+    float: right;
+    width: 10%;
+    height: 153.4vh;
+    background-color:rgb(71, 189, 71);
+    color:#a8ecbf;
+    padding-top:150px;
+    box-sizing: border-box;
+}
+.h3{
+    color:#E6F2EA;
+    width: 25%;
+    font-size: 25px;
+}
+.list{
+    list-style: none;
+}
+.li{
+    margin-right: 50px;
+    word-spacing: -80px;
+    padding-left: 50px;
+}
+
+.mountain{
+    width: 25%;
+    padding: 10px;
+}
+.sea{
+    width: 25%;
+    padding: 10px;
+}
+.forests{
+    width: 25%;
+    padding: 10px;
+}
+.ocean{
+    width: 25%;
+    padding: 10px;
+    }
+
+.headline1{
+    text-align: center;
+    color:rgb(77, 143, 11);
+    font-size: 60px;
+    padding: 30px;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+
+/* BOX1////////////////////////////////// */
+
+.box1{
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    
+}
+.grass{
+    width: 400px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 20%;
+}
+
+.bgrass{
+    text-align: justify;
+    font-size: 25px;
+    color: green;
+}
+.text_box1{
+    color: green;
+
+}
+/* BOX2/////////////////////////////// */
+.box2{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    color: green ;
+    text-align: justify;
+}
+.trees {
+    padding: 10px;
+    height: 150px;
+}
+.htrees{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20%;
+}
+.lanscape{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20%;
+}
+.strees{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20%;
+}
+.text_box2{
+    color: green;
+    padding: 10px;
+    padding-top: 0;
+    text-align: justify;
+}
+.btrees{
+    text-align: center;
+    color: green; 
+    font-size: 25px;
+}
+/* BOX3//////////////////////////// */
+.box3{
+    /* background-color: rgb(246, 250, 23); */
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.red{
+    width: 200px;
+    height: 150px;
+
+    float: left;
+    padding: 20px;
+    border-radius: 20%;
+}
+.rosa{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    border-radius: 20%;
+}.white{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    border-radius: 20%;
+}
+.blue{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    border-radius: 20%;
+}
+.text_box3{
+    color: green;
+    padding-bottom: 20px;
+    margin: 10px;
+    line-height: 20px;
+}
+.aflowers{
+    text-align: justify;
+    font-size: 25px;
+    color: green;
+    padding-top: 10px;
+    }
+/* BOX4//////////////////////////// */
+.box4{
+    /* background-color: rgb(189, 27, 175); */
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.oceans{
+    width: 410px;
+    float: left;
+    padding: 20px;
+    border-radius: 20%; 
+}
+
+.gocean{
+    text-align: right;
+    font-size: 25px;
+    color: green;
+    padding-right:70px;
+}
+.text_box4{
+    color: green;
+    padding-left: 10px;
+    text-align: justify;
+}
+/* ARTICLE///////////////////////// */
+.article{
+    margin-top: 700px;
+    margin-bottom: 449px;
+    background-color: #E6F2EA;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.friends{
+    padding-top: 50px;
+    text-align: center;
+    color:rgb(77, 143, 11);
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: overline;
+}
+.text_art{
+    color: green;
+    padding: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.art{
+    color: green;
+    padding: 10px;
+    line-height: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(147, 190, 122);
+    color:#E6F2EA;
+    height: 20vh;
+    width: 100%; 
+    border-top: 3px solid greenyellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.contact{
+    float: right;
+    padding-left: 650px;
+    padding-right: 36px;
+    padding-top: 10px;
+
+}
+.img_logo2{
+    float: left;
+    padding: 22px;
+    width: 30%;
+}
+
+.contact-data{
+    margin-top: 5px;
+    list-style: none;
+}
+
+.contact-h4{
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-left: 40px;
+
+}
+.copy{
+    /* padding-top: 1500px; */
+    padding-left: 570px;
+    margin-top: 130px;
+    font-size: 15px;
+    font-style: italic; 
+    color: white; 
+ } 
